@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TableBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="dishes">
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>BBQ</item>
+        <item>Cafes</item>
+        <item>Bar</item>
+        <item>Italian</item>
+        <item>South Indian</item>
+        <item>Bakery</item>
+    </string-array>
+</resources>

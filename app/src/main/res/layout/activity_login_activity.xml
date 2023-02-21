@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E99FF4"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="216dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="0dp"
+        android:text="New Here?Register Your Self !!"
+        android:textSize="14sp"
+
+        android:gravity="center"
+        android:textStyle="bold"
+
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <ImageView
+
+        android:id="@+id/logo"
+        android:layout_width="363dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/resturent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="313dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="313dp"
+        android:layout_height="58dp"
+
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter the password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/button_bg"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#EAF85D"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_bg"
+        android:text="Register Here"
+        android:textAlignment="center"
+        android:textColor="#F0FB7D"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#EDF87C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
